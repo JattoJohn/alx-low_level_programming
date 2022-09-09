@@ -10,17 +10,20 @@ int main(void)
 
 	for (p = 48; p <= 57; p++)
 	{
-		for (s = 48; s <= 57; s++)
+		for (s = 49; s <= 57; s++)
 		{
-			putchar(p);
-			putchar(s);
-			if (p != 57 || s != 57)
+			if (p > s)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(p);
+				putchar(s);
+				if (p != 56 || s != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
 	putchar('\n');
-	return (0);	
+	return (0);
 }
