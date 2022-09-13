@@ -1,10 +1,7 @@
-#include <stdio.h>
+#ifndef MAIN.H
+#define MAIN.H
 
-/**
- * main - Entry point
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	return (0)
-}
+all prototypes listed in the project
+
+
+#endif
